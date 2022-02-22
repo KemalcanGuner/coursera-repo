@@ -10,7 +10,6 @@ LunchCheckController.$inject = ['$scope'];
   $scope.name = "";
   $scope.message = "";
 
-
   $scope.sayMessage = function (){
     const words = $scope.name.split(',');
     var length = words.length;
@@ -21,7 +20,5 @@ LunchCheckController.$inject = ['$scope'];
   };
 
 };
-
-
 
 })();
