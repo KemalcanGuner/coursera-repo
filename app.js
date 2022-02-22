@@ -15,9 +15,9 @@ LunchCheckController.$inject = ['$scope'];
     const words = $scope.name.split(',');
     var length = words.length;
     console.log(length);
-    if (length <= 3 || $scope.name != ""){$scope.message = "Enjoy";}
-    if (length > 3){$scope.message = "That's too much";}
-    if ($scope.name == ""){$scope.message = "Please enter data";}
+    if (length <= 3 || $scope.name != ""){$scope.message = "Enjoy!";}
+    if (length > 3){$scope.message = "Too much";}
+    if ($scope.name == ""){$scope.message = "Please enter data first";}
   };
 
 };
